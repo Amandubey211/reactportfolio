@@ -1,0 +1,59 @@
+.home_body_section {
+  margin-top: 12rem;
+  padding: 1rem 10rem;
+  padding-bottom: 7rem;
+}
+
+.first-row .col-lg-6 {
+  display: flex;
+  justify-content: center;
+}
+.experience_area .year-area h2:first-child {
+  font-size: xxx-large;
+  font-weight: bold;
+  z-index: 2;
+  color: var(--primary-color);
+}
+
+.experience_area span {
+  display: block;
+  font-weight: 500;
+}
+.experience_area .year-area {
+  background-image: url(../../../images/img/client-info-bg.png);
+  background-repeat: no-repeat;
+  padding: 1rem 0rem 6rem 0rem;
+  padding-left: 8rem;
+  width: 30rem;
+  /* border: 1px solid red; */
+  position: relative;
+  margin-bottom: 2rem;
+}
+.call-area {
+  padding-left: 100px;
+}
+.call-area .call-now > a {
+  text-decoration: none;
+  color: black;
+}
+.call-area .call-now > a:hover {
+  color: var(--primary-color);
+}
+.bg_panel {
+  position: relative;
+  left: 60px;
+  top: -300px;
+  width: 340px;
+  height: 300px;
+  background: linear-gradient(
+    55deg,
+    rgb(221, 221, 221) 0%,
+    rgb(110, 136, 161) 100%
+  );
+  opacity: 0.3;
+  z-index: -1;
+  border-radius: 3px 25px 3px 25px;
+}
+.brands_section {
+  padding-bottom: 1rem;
+}

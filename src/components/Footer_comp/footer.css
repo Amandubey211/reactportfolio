@@ -1,0 +1,12 @@
+.footer {
+  /* padding: 9rem 0rem 0rem 0rem; */
+  background: linear-gradient(
+    183deg,
+    rgb(215, 223, 252) 0%,
+    rgb(120, 27, 242) 100%
+  );
+}
+.footer h1,
+p {
+  text-align: center;
+}

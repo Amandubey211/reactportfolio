@@ -1,0 +1,74 @@
+.container .service_cards .card .card-body .button {
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  border: 3px transparent;
+  border-radius: 4px;
+  padding: 0.8rem 2.2rem;
+  color: black;
+  width: 17rem;
+  background: linear-gradient(
+    132deg,
+    rgb(146, 11, 126) 0%,
+    rgb(52, 29, 49) 100%
+  );
+  transition: background 0.3s, transform 0.6s;
+  background-clip: padding-box;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#button3 {
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  border: 3px transparent;
+  border-radius: 4px;
+  width: 13srem;
+  padding: 0.8rem 2.2rem;
+  color: black;
+  background: linear-gradient(
+    132deg,
+    rgb(146, 11, 126) 0%,
+    rgb(52, 29, 49) 100%
+  );
+  transition: background 0.3s, transform 0.6s;
+  background-clip: padding-box;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container .service_cards .card {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: transform 0.7s;
+  margin-left: 4rem;
+}
+
+.container .service_cards .card:hover {
+  transform: translateY(-4px) scale(1.04);
+}
+.service_heading {
+  padding-left: 50px;
+}
+.service_heading h2,
+.custom_service_box h2 {
+  text-align: center;
+}
+.service_section {
+  padding-bottom: 10rem;
+}
+
+.service_card_link {
+  color: black;
+  text-decoration: none;
+}
+.service_card_link:hover {
+  text-decoration: none;
+  color: black;
+}
+.container .service_cards {
+  margin-bottom: 20rem;
+}
+.custom_service_box {
+  margin: 2px auto;
+}
+.custom_service {
+  width: 40rem;
+  height: 15rem;
+}

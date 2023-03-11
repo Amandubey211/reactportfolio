@@ -1,0 +1,58 @@
+.personal_info {
+  background: linear-gradient(
+    132deg,
+    rgb(146, 11, 126) 0%,
+    rgb(52, 29, 49) 100%
+  );
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.pinfo_body > h6 {
+  padding: 2px 0px 8px 0px;
+}
+
+.contact_img {
+  margin: 2px auto;
+}
+.contact_img img {
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.personal_info .pinfo_foot {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 4rem;
+  flex-wrap: wrap;
+
+  gap: 2.4rem;
+  justify-content: center;
+  margin: 3rem 0rem 2rem 0rem;
+  padding: 0.4rem 3rem 0.4rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.3s;
+}
+
+.pinfo_foot:hover {
+  transform: scale(1.2);
+}
+.pinfo-logo {
+  transition: 0.2s ease-out;
+  margin-right: 4px;
+}
+.pinfo-logo:hover {
+  transform: scale(1.4);
+}
+.pinfo_foot_logo {
+  text-decoration: none;
+  color: black;
+}
+.pinfo_foot_logo:hover {
+  color: aliceblue;
+}
+.personal_info {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}

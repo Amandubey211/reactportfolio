@@ -1,0 +1,95 @@
+.header_section {
+  padding: 2rem 0rem 0rem 5rem;
+}
+
+.Cvbtn {
+  font-style: none;
+  color: blue;
+}
+
+.row h3 {
+  font-weight: 500;
+}
+
+.row h3::after {
+  content: "";
+  display: inline-block;
+  width: 16vw;
+  height: 2px;
+  background: black;
+  margin-left: 8px;
+  transform: translateY(-5px);
+}
+.row h1 {
+  font-size: 3.5rem;
+}
+
+.row h4 {
+  font-size: 1.3rem;
+}
+
+.row .banner .site_btns .button {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 3px transparent;
+  border-radius: 4px;
+  padding: 0.8rem 2.2rem;
+}
+.row .banner .site_btns .primary-button {
+  color: black;
+
+  transition: background 0.6s, transform 0.6s;
+  background-clip: padding-box;
+  background: linear-gradient(
+    55deg,
+    rgb(221, 221, 221) 0%,
+    rgb(110, 136, 161) 100%
+  );
+}
+
+.row .banner .site_btns .primary-button:hover {
+  /* background: whitesmoke; */
+  transform: translateY(-5px);
+  background-clip: padding-box;
+}
+/* .primary-button::after {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+  background: linear-gradient(
+    55deg,
+    rgb(221, 221, 221) 0%,
+    rgb(110, 136, 161) 100%
+  );
+  z-index: -1;
+  content: "";
+  border-radius: 4px;
+} */
+
+.row .banner .site_btns .secondary-button {
+  color: black;
+  transition: background 0.6s ease, transform 0.4s;
+  background-clip: padding-box;
+
+  background: linear-gradient(
+    132deg,
+    rgb(146, 11, 126) 0%,
+    rgb(52, 29, 49) 100%
+  );
+}
+.row .banner .site_btns .secondary-button:hover {
+  /* background: whitesmoke; */
+  background-clip: padding-box;
+  transform: translateY(-4px);
+  color: whitesmoke;
+}
+.header_image img {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+}
+.Homeimage {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

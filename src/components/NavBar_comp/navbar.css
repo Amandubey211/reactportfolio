@@ -1,0 +1,15 @@
+:root {
+  --primary-color: rgb(124, 8, 153);
+}
+
+.navbar {
+  padding: 2rem 15rem 0.4rem;
+}
+nav nav ul li {
+  text-transform: uppercase;
+}
+.nav-link {
+  color: var(--primary-color);
+  font-weight: 500;
+  padding: 1.6rem;
+}

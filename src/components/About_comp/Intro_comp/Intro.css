@@ -1,0 +1,32 @@
+.about_image img {
+  border-radius: 20px;
+}
+
+.about_info {
+  padding: 1rem 6rem;
+}
+.about_area .container-fluid .row .about_info .button {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border: 3px transparent;
+  border-radius: 4px;
+  padding: 0.8rem 2.2rem;
+  color: black;
+
+  transition: background 0.6s, transform 0.6s;
+  background-clip: padding-box;
+
+  background: linear-gradient(
+    132deg,
+    rgb(146, 11, 126) 0%,
+    rgb(52, 29, 49) 100%
+  );
+}
+.about_area .container-fluid .row .about_info h2 > span {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 15px;
+}
+.education_img img {
+  border-radius: 10px;
+  overflow: hidden;
+}

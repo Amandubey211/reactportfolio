@@ -1,0 +1,69 @@
+.form {
+  box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 0px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px 0px;
+
+  padding: 4rem 2rem 2rem 4rem;
+  margin-bottom: 2rem;
+  border-radius: 3rem;
+}
+
+.form .names fieldset > input {
+  height: 3rem;
+  width: 23rem;
+  border: transparent;
+  border-bottom: 2px solid rgb(142, 142, 157);
+  padding: 1rem;
+}
+
+.contacts fieldset > input[type="number"],
+input[type="email"] {
+  height: 3rem;
+  width: 23rem;
+  border: transparent;
+  border-bottom: 2px solid rgb(138, 138, 148);
+  padding: 1rem;
+}
+.form .names fieldset > label,
+.contacts fieldset > label {
+  font-size: smaller;
+}
+.form_radio {
+  padding-top: 1rem;
+}
+.form_radio > input {
+  margin-left: 1rem;
+}
+.form_radio > label {
+  margin-left: 0.3rem;
+}
+.message-type {
+  border: transparent;
+  border-bottom: 2px solid grey;
+  width: 47rem;
+  height: 3rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.formbtn {
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  border: 3px transparent;
+  border-radius: 7px;
+  margin-left: 38rem;
+  padding: 0.8rem 3rem;
+  color: black;
+  margin-bottom: 1rem;
+  transition: background 0.3s, transform 0.3s;
+  background-clip: padding-box;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background: linear-gradient(
+    132deg,
+    rgb(146, 11, 126) 0%,
+    rgb(52, 29, 49) 100%
+  );
+  color: white;
+}
+.formbtn:hover {
+  transform: scale(1.1);
+}

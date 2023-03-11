@@ -1,0 +1,47 @@
+.skill_heading {
+  text-align: center;
+  font-weight: bold;
+}
+.skill_heading_inner,
+.education_heading_inner {
+  border-bottom: 4px solid rgb(192, 14, 211);
+  border-radius: 5px;
+  border-top: 4px solid rgb(192, 14, 211);
+}
+.skill_tilte {
+  text-align: center;
+  font-weight: 500;
+}
+
+.project_link {
+  text-decoration: none;
+  color: black;
+}
+
+.skill_heading {
+  letter-spacing: 12px;
+}
+.skill_heading::after {
+  content: "";
+  display: inline-block;
+  width: 15vw;
+  height: 3px;
+  background: black;
+  line-height: 2;
+  position: relative;
+  top: -9px;
+  border-radius: 20px;
+}
+.skill_heading::before {
+  content: "";
+  display: inline-block;
+  width: 15vw;
+  position: relative;
+  height: 3px;
+  background: black;
+  top: -9px;
+  line-height: 2;
+  margin-right: 25px;
+  border-radius: 20px;
+  overflow: hidden;
+}
